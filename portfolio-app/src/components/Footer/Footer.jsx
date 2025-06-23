@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, Instagram, Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const menuItems = [
@@ -25,12 +26,12 @@ const Footer = () => {
         <ul className="text-center md:flex flex-wrap justify-center gap-6 text-md font-medium">
           {menuItems.map((item) => (
             <li key={item.name} className='mb-2 md:mb-0'>
-              <a
-                href={item.link}
+              <Link
+                to={item.link}
                 className="hover:text-blue-600 dark:hover:text-blue-400 transition duration-300"
               >
                 {item.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

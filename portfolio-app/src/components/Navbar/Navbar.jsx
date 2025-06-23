@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const menuItems = [
@@ -22,12 +23,12 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-8">
           {menuItems.map((item) => (
             <li key={item.name} className="group relative">
-              <a
-                href={item.link}
+              <Link
+                to={item.link}
                 className="text-gray-700 dark:text-gray-300 text-lg font-medium hover:text-blue-600 dark:hover:text-blue-400 transition duration-300"
               >
                 {item.name}
-              </a>
+              </Link>
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
             </li>
           ))}
@@ -48,13 +49,13 @@ const Navbar = () => {
           <ul className="flex flex-col space-y-4 pt-2 text-center">
             {menuItems.map((item) => (
               <li key={item.name} className="group relative">
-                <a
-                  href={item.link}
+                <Link
+                  to={item.link}
                   onClick={() => setMenuOpen(false)}
                   className="text-gray-700 dark:text-gray-300 text-lg font-medium hover:text-blue-600 dark:hover:text-blue-400 transition duration-300"
                 >
                   {item.name}
-                </a>
+                </Link>
                 <span className="block w-0 h-[2px] bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
               </li>
             ))}
