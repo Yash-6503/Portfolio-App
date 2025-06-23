@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import ProfilePic from '../assets/skills/dev.png'; // Adjust your image path
+import ProfilePic from '../assets/skills/dev.png';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
@@ -47,12 +48,12 @@ const Contact = () => {
           >
             Hire Me
           </a>
-          <a
-            href="/message"
+          <Link
+            to="/message"
             className="w-full sm:w-auto px-6 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition"
           >
             Message Me
-          </a>
+          </Link>
         </div>
       </div>
     </section>
