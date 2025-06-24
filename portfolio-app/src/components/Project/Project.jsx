@@ -66,7 +66,7 @@ const allProjects = [
             server: '-',
         },
         image: img2,
-        code: 'https://github.com/Yash-6503/Portfolio-Project',
+        code: 'https://github.com/Yash-6503/Portfolio-App',
         live: 'https://portfolio-yashwalke.netlify.app/',
     },
     {
