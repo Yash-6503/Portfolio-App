@@ -9,7 +9,7 @@ import Experience from './Experience'
 
 function About() {
   return (
-    <div>
+    <div className='light:bg-gray-100 dark:bg-gray-950'>
       <Home/>
       <Skills />
       <Experience/>

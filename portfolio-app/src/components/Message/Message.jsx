@@ -2,7 +2,7 @@ import React from 'react';
 
 const Message = () => {
     return (
-        <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-100 dark:bg-gray-950   ">
+        <section className="md:h-screen flex items-center justify-center px-4 py-16 bg-gray-100 dark:bg-gray-950   ">
             <div className="w-full max-w-2xl light:bg-gradient-to-br from-blue-50 via-purple-100 to-pink-50  dark:bg-gray-800 shadow-xl rounded-2xl p-8">
                 <h2 className="text-3xl font-bold text-center text-blue-600 mb-8">Send a Message</h2>
 

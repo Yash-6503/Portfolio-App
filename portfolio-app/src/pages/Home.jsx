@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import ProfilePic from '../assets/skills/dev.png'; // Use your actual image
 import HeroText from '../components/Text/HeroText';
+import { Link } from 'react-router-dom';
 
 const fadeIn = {
     hidden: { opacity: 0, y: 40 },
@@ -11,7 +12,7 @@ const fadeIn = {
 
 const Home = () => {
     return (
-        <section className="min-h-screen flex items-center justify-center px-6 md:px-20 py-16 bg-gray-50 dark:bg-gray-950 text-gray-800 ">
+        <section className="md:h-screen flex items-center justify-center px-6 md:px-20 py-16 bg-gray-50 dark:bg-gray-950 text-gray-800 ">
             <motion.div
                 className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
                 initial="hidden"
@@ -63,12 +64,12 @@ const Home = () => {
                         >
                             Download CV
                         </a>
-                        <a
+                        <Link
                             className="px-6 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition"
-                            href="/contact"
+                            to="/contact"
                         >
                             Contact Me
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

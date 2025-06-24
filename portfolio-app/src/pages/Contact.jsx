@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center px-4 py-16 bg-gray-100 dark:bg-gray-950 ">
+    <section className="md:h-screen flex flex-col items-center justify-center px-4 py-16 bg-gray-100 dark:bg-gray-950 ">
       <h2 className="text-4xl font-bold mb-4 text-blue-600">Contact</h2>
       <div className="bg-gray-100 bg-gradient-to-br from-blue-50 via-purple-100 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 rounded-2xl shadow-xl p-8 max-w-md w-full text-center">
         {/* Profile Image */}

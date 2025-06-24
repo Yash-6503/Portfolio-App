@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar/Navbar";
 
 const educations = [
     {
@@ -36,8 +35,7 @@ const fadeIn = {
 export default function Education() {
     return (
         <>
-            <Navbar />
-            <div className="text-black px-6 sm:px-[10%] min-h-screen bg-gray-100 dark:bg-gray-950 dark:text-white pt-10 pb-10">
+            <div className="text-black px-6 sm:px-[10%] md:h-screen bg-gray-100 dark:bg-gray-950 dark:text-white pt-10 pb-10">
                 <h2 className="text-center font-extrabold text-[24px] sm:text-[32px] 2xl:text-[50px] mb-10 text-blue-600">
                     My Education
                 </h2>
