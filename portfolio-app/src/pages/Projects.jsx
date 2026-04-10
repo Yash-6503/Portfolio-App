@@ -6,39 +6,40 @@ import img2 from '../assets/projects/portfolio.webp';
 import img3 from '../assets/projects/calculator.webp';
 import img4 from '../assets/projects/grocery.webp';
 import quizz from '../assets/projects/quizz.jpg';
+import ecom from '../assets/projects/ecomm.jpg';
 import todo from '../assets/projects/todo.webp';
 import { motion } from 'framer-motion';
 
 const projects = [
   {
     id: 1,
+    title: 'ShopKaro E-Commerce Project',
+    description: 'I have developed a Fullstack ShopKaro E-Commerce App using HTML, CSS, Tailwind CSS, JavaScript, Reactjs, Java, Spring Boot and MySQL.',
+    img: ecom,
+  },
+  {
+    id: 2,
     title: 'Quizz App Project',
     description: 'I have developed a Fullstack Quizz App using HTML, CSS, Tailwind CSS, JavaScript, Reactjs, Java, Spring Boot and MySQL.',
     img: quizz,
   },
   {
-    id: 2,
+    id: 3,
     title: 'ToDo-List Project',
     description: 'I have developed a Fullstack ToDo-List App using HTML, CSS, Tailwind CSS, JavaScript, Reactjs, Java, Spring Boot and MySQL.',
     img: todo,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Swiggy Clone Project',
     description: 'I have developed a Swiggy Clone using HTML, CSS, Tailwind CSS, JavaScript, and Next.js.',
     img: img1,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Personal Portfolio Website',
     description: 'I created a portfolio using HTML, CSS, Tailwind CSS, JavaScript, and Next.js.',
     img: img2,
-  },
-  {
-    id: 5,
-    title: 'Calculator Project',
-    description: 'A web-based calculator using HTML, CSS, Tailwind CSS, JavaScript, and React.js.',
-    img: img3,
   },
   {
     id: 6,

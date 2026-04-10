@@ -25,21 +25,22 @@ const cards = [
     content: (
       <>
         <ul className="mb-3">
+          <li>ShopKaro E-Commerce App</li>
           <li>Quizz App</li>
           <li>ToDo-List Website</li>
-          <li>Portfolio, Calculator, Profile Cards</li>
+          <li>Portfolio Website</li>
         </ul>
       </>
     ),
     link: (
-      <a
-        href="https://github.com/Yash-6503/Web-Dev-Projects"
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        to="/projects"
+      // target="_blank"
+      // rel="noopener noreferrer"
         className="inline-block px-4 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition"
       >
         View Projects
-      </a>
+      </Link>
     )
   },
   {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
-import ProfilePic from '../assets/skills/dev.png'; // Use your actual image
+import ProfilePic from '../assets/profile/dev.png'; // Use your actual image
 import HeroText from '../components/Text/HeroText';
 import { Link } from 'react-router-dom';
 
@@ -27,7 +27,7 @@ const Home = () => {
                         <img
                             src={ProfilePic}
                             alt="Profile"
-                            className="w-full h-full object-contain"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Home = () => {
                     {/* Buttons */} 
                     <div className="mt-8 flex justify-center md:justify-start gap-4">
                         <a
-                            href="/YashWalke_Resume.pdf"
+                            href="/YashWalke_Resume_2026.pdf"
                             download="Resume.pdf"  // File will be downloaded with this name
                             className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
                         >

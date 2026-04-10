@@ -3,9 +3,14 @@ import { motion } from "framer-motion";
 
 const educations = [
     {
+        title: "Post Graduation",
+        description:
+            "Currently, Pursuing Master of Computer Application [MCA] at Matoshri College of Engineering & Research Centre, Nashik. Duration: June 2025 to June 2027.",
+    },
+    {
         title: "Graduation",
         description:
-            "I have completed my B.Sc. in Computer Science at K.T.H.M College, Nashik with 7.8 CGPA. Duration: June 2021 to May 2024.",
+            "I have completed my B.Sc. in Computer Science at K.T.H.M College, Nashik with 7.8 CGPA. Duration: June 2021 to June 2024.",
     },
     {
         title: "12th HSC",

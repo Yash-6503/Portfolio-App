@@ -5,32 +5,37 @@ const courses = [
   {
     title: "Java Fullstack Development",
     description:
-      "I have Completed Fullstack Course in Java at Naresh i Technologies, Hyderabad.\nDuration from July-2024 to June-2025",
+      "I have Completed Fullstack Course in Java from Naresh i Technologies, Hyderabad.\nDuration from July-2024 to June-2025",
+  },
+  {
+    title: "Spring AI Basics",
+    description:
+      "I have Completed Spring AI Basics Course from Simplilearn.\nDuration from Nov-2025 to Dec-2025",
   },
   {
     title: "WEBSITE DESIGNING",
     description:
-      "I have Completed Website Designing Course at TechnoKraft Training Solutions, Nashik (TTS).\nDuration from June-2023 to Aug-2023",
+      "I have Completed Website Designing Course from TechnoKraft Training Solutions, Nashik (TTS).\nDuration from June-2023 to Aug-2023",
   },
   {
     title: "MERN Stack Web Development",
     description:
-      "I have Completed MERN Stack Web Development Course at TechnoKraft Training Solutions, Nashik (TTS).\nDuration from July-2023 to Oct-2023",
+      "I have Completed MERN Stack Web Development Course from TechnoKraft Training Solutions, Nashik (TTS).\nDuration from July-2023 to Oct-2023",
   },
   {
     title: "REACT.JS",
     description:
-      "I have Completed React.Js Course at TechnoKraft Training Solutions, Nashik.\nDuration from July-2023 to Sept-2023",
+      "I have Completed React.Js Course from TechnoKraft Training Solutions, Nashik.\nDuration from July-2023 to Sept-2023",
   },
   {
     title: "NODE.JS",
     description:
-      "I have Completed Node.Js Course at TechnoKraft Training Solutions, Nashik.\nDuration from Sept-2023 to Nov-2023",
+      "I have Completed Node.Js Course from TechnoKraft Training Solutions, Nashik.\nDuration from Sept-2023 to Nov-2023",
   },
   {
     title: "C and C++ Programming",
     description:
-      "I have Completed C & C++ Course at TechnoKraft Training Solutions, Nashik.\nDuration from April-2023 to June-2023",
+      "I have Completed C & C++ Course from TechnoKraft Training Solutions, Nashik.\nDuration from April-2023 to June-2023",
   },
 ];
 

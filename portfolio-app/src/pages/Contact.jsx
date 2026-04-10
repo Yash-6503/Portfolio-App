@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import ProfilePic from '../assets/skills/dev.png';
+import ProfilePic from '../assets/profile/dev.png';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
           <img
             src={ProfilePic}
             alt="Profile"
-            className="w-full h-[181px] object-contain"
+            className="w-full h-full object-contain"
           />
         </div>
 

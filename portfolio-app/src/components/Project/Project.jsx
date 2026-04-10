@@ -6,11 +6,27 @@ import img2 from '../../assets/projects/portfolio.webp';
 import img3 from '../../assets/projects/calculator.webp';
 import img4 from '../../assets/projects/grocery.webp';
 import quizz from '../../assets/projects/quizz.jpg';
+import ecom from '../../assets/projects/ecomm.jpg';
 import todo from '../../assets/projects/todo.webp';
 
 const allProjects = [
     {
         id: 1,
+        title: 'ShopKaro E-Commerce Project',
+        description:
+            'An interactive full-stack ShopKaro E-Commerce Application designed to provide a seamless online shopping experience. Built with Spring Boot and ReactJS, it enables users to browse products, add items to cart, and place orders efficiently. The platform supports category-based product filtering, secure user authentication, and role-based access (Admin & Customer). Admins can manage products, categories, and orders dynamically, while users enjoy a responsive and modern UI powered by TailwindCSS. The backend ensures secure transactions, RESTful APIs, and efficient data handling, making it a scalable and real-world ready e-commerce solution.',
+        tech: {
+            frontend: 'HTML, CSS, JavaScript, TailwindCSS, ReactJS',
+            backend: 'Java, Spring Boot (MVC, Data JPA, REST, Security, JWT)',
+            database: 'MySQL',
+            server: 'Tomcat',
+        },
+        image: ecom,
+        code: 'https://github.com/Yash-6503/ECommerce-Fullstack-Project',
+        live: '',
+    },
+    {
+        id: 2,
         title: 'Quizz App Project',
         description:
             'An interactive fullstack Quiz App designed for real-time assessments. Built with Spring Boot and ReactJS, it supports quiz creation, category-based filtering, user and admin roles, and dynamic question handling. Features a modern UI with TailwindCSS and secure backend logic.',
@@ -25,7 +41,7 @@ const allProjects = [
         live: '',
     },
     {
-        id: 2,
+        id: 3,
         title: 'ToDo-List Project',
         description:
             'A fullstack ToDo-List web application that allows users to manage their daily tasks efficiently. Built with ReactJS and Spring Boot, it supports authentication, CRUD operations, and real-time UI updates. Data is securely stored in MySQL.',
@@ -40,7 +56,7 @@ const allProjects = [
         live: 'https://yash-todo-list.netlify.app/',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Swiggy Clone',
         description:
             'A frontend clone of Swiggy using Next.js and TailwindCSS. The project mimics Swiggy’s layout and functionality, including responsive design, routing, and modern UI interactions. Ideal for frontend development practice.',
@@ -55,7 +71,7 @@ const allProjects = [
         live: '',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Portfolio Site',
         description:
             'A professional portfolio website created with Next.js and TailwindCSS. Showcases projects, skills, education, and contact details. Designed with animations, responsive layouts, and clean design aesthetics.',
@@ -68,21 +84,6 @@ const allProjects = [
         image: img2,
         code: 'https://github.com/Yash-6503/Portfolio-App',
         live: 'https://portfolio-yashwalke.netlify.app/',
-    },
-    {
-        id: 5,
-        title: 'Calculator',
-        description:
-            'A responsive calculator app developed using React and TailwindCSS. It performs basic arithmetic operations with a modern user interface and theme switching capability.',
-        tech: {
-            frontend: 'HTML, CSS, JavaScript, TailwindCSS, ReactJS',
-            backend: '-',
-            database: '-',
-            server: '-',
-        },
-        image: img3,
-        code: 'https://github.com/Yash-6503/Calculator-Project',
-        live: 'https://yashcalc.netlify.app/',
     },
     {
         id: 6,
